@@ -25,7 +25,7 @@ console.log(`You are withdrawing : ${ukPound.format(amtWithdrawn)}`);
  return userBalance;
 }
 withdraw();
-console.log(`Your new balance is now : ${ukPound.format(userBalance)}`);
+console.log(`Your new balance is now : ${ukPound.format(userBalance)}`);clear
 function deposit(){
   let amtDeposit = Number(prompt(`Hey ${acctName},how much do you want to deposit today`));
   console.log(`You are depositing : ${ukPound.format(amtDeposit)}`)
